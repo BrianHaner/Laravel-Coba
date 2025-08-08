@@ -1,0 +1,46 @@
+Untuk cek yg di edit apa aja (opsional)
+git status
+
+menambahkan file nya (wajib)
+git add .
+
+commit adalah Checkpoint, kayak pesannya pak biar lognya di git kalau mau dilihat ini perubahannya apa (wajib)
+git commit -m "pesan bebas misal Edit:Pembelian resource, migration, model"
+
+ini diupload ke server githubnya di branch master (wajib)
+git push origin master
+
+
+Sementara ini dulu pak
+1. Jadi nanti kalau error bisa aja, balik, nah itu ambil dari git commit itu, kalau di ai
+2. tampilkan commit di git saya
+3. saya ingin balik di commit nomor sekian
+
+misal nih pak, kaya tadi kan saya nyoba nyoba bikin tabelnya tuh, nanti berarti kalo udh nyerah saya tinggal git status gitu yah?
+trus balik lagi ke awal sebelum perubahan gitu yah?
+
+Perintah kalau nyerah
+git stash
+git clean -f -d
+
+Bisa juga
+git restore app/Providers/Filament/AdminPanelProvider.php kalau mau cuma file ini yang ga kepake lainnya masih mau diupload ke server
+
+artinya
+git stash = save temporary ke hardisk tp ga ke server file yang diedit
+git clean -f -d = delete kalau ada file baru tapi ga ke save
+
+yang belum saya jelasin login git pertama kali lewat terminal nya sih pak
+
+itu harus bikin akun yah pak? betul
+trus ini kan masih pake git saya yah, bisa nanti dipindah ke git nya p fadly
+kayak google drivenya pak fadly lah istilahnya
+
+berarti saya bikin aja dulu yah?
+booleh pak
+okee pak, saya bikin dulu ajaa yaah. terimakasih banyaakkk pak urfaann
+mantaap
+sama2 pak
+pak in idi save kan yah?
+
+ikutin yang digemini after sign up y pak..
